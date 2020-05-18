@@ -1,0 +1,12 @@
+{
+    "suggest.autoTrigger": "trigger",
+    "python.jediEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "black",
+    "coc.preferences.formatOnSaveFiletypes": [],
+    "coc.preferences.formatOnType": true,
+    "python.linting.pydocstyleEnabled": true,
+}
+
