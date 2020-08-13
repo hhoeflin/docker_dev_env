@@ -10,6 +10,7 @@ RUN apt-get update \
         unzip \
         locales \ 
         python \
+        ncurses \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
