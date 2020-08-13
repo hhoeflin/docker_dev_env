@@ -55,6 +55,8 @@ COPY --chown=devenv install_cli.sh install_cli.sh
 RUN chmod +x install_cli.sh && ./install_cli.sh
 WORKDIR /home/devenv
 
+# need to set the correct terminal
+ENV TERM screen-256color
 
 RUN chmod a+rwX -R *
 
